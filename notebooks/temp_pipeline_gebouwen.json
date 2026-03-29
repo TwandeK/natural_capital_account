@@ -1,0 +1,1 @@
+{"pipeline": ["C:\\Users\\twand\\Documents\\Python\\natural_capital\\data\\raw\\puntenwolk\\AHN5\\2023_C_38CN1.LAZ", {"type": "filters.range", "limits": "Classification[6:6]"}, {"type": "writers.gdal", "filename": "C:\\Users\\twand\\Documents\\Python\\natural_capital\\data\\processed\\2023_C_38CN1_gebouwen.tif", "output_type": "idw", "resolution": "1.2", "window_size": "3"}]}
