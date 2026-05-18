@@ -550,7 +550,7 @@ def maak_training_dataset_tiled(raster_path, vector_path, output_csv_path):
     vector_data = gpd.read_file(vector_path) #de gelabelde polygonen
 
     # 2: Labels van polygonen omzetten naar getallen
-    kolom_namen = ['boom', 'gras', 'water_weg']
+    kolom_namen = ['boom', 'gras', 'water', 'steen']
     name_to_num = {naam: i+1 for i, naam in enumerate(kolom_namen)}
     num_to_name = {v: k for k, v in name_to_num.items()}
     
